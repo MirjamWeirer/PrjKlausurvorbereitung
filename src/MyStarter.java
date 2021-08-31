@@ -7,17 +7,22 @@ public class MyStarter {
         PrintStream output = new PrintStream(System.out);
         DBHelper db = new DBHelper();
         boolean count = true;
-        output.println("Bitte gib eine Zahl (3 -  ); (1 und 2 erstellen Tabllen falls sie noch nicht existieren); 0 zum beenden");
-        int number;
-        do {
-            number= input.nextInt();
-            if (number == 0){
-                output.println("Programm beendet");
-                count = false;
-            }else {
-                db.methods(number);
-            }
-        }while (count);
+//        output.println("Bitte gib eine Zahl (3 -  ); (1 und 2 erstellen Tabllen falls sie noch nicht existieren); 0 zum beenden");
+//        int number;
+//        do {
+//            number= input.nextInt();
+//            if (number == 0){
+//                output.println("Programm beendet");
+//                count = false;
+//            }else {
+//                db.methods(number);
+//            }
+//        }while (count);
 
+
+//        Kunde k = new Kunde(0,"Elisabeth","Mayer","",23);
+//        db.addKunde(k);
+//        Rechnungen r = new Rechnungen(0,"20.8.2021",300,2);
+//        db.addRechnung(r);
     }
 }

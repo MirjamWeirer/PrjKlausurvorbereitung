@@ -6,7 +6,7 @@ public class Rechnungen {
     public Rechnungen() {
     }
 
-    public Rechnungen(int reNr, int kdnr, String datum, double gesamtbetrag) {
+    public Rechnungen(int reNr, String datum, double gesamtbetrag, int kdnr) {
         this.reNr = reNr;
         this.kdnr = kdnr;
         this.datum = datum;

@@ -5,7 +5,7 @@ public class Kunde {
     public Kunde() {
     }
 
-    public Kunde(int kdnr, int bonuspunkte, String vorname, String nachname, String geschlecht) {
+    public Kunde(int kdnr, String vorname, String nachname, String geschlecht, int bonuspunkte) {
         this.kdnr = kdnr;
         this.bonuspunkte = bonuspunkte;
         this.vorname = vorname;
