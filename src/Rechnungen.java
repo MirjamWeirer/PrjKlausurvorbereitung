@@ -49,9 +49,10 @@ public class Rechnungen {
     public String toString() {
         return "Rechnungen{" +
                 "reNr=" + reNr +
-                ", kdnr=" + kdnr +
                 ", datum='" + datum + '\'' +
                 ", gesamtbetrag=" + gesamtbetrag +
+                ", kdnr=" + kdnr +
                 '}';
     }
+
 }

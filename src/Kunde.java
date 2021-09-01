@@ -57,10 +57,10 @@ public class Kunde {
     public String toString() {
         return "Kunde{" +
                 "kdnr=" + kdnr +
-                ", bonuspunkte=" + bonuspunkte +
                 ", vorname='" + vorname + '\'' +
                 ", nachname='" + nachname + '\'' +
                 ", geschlecht='" + geschlecht + '\'' +
+                ", bonuspunkte=" + bonuspunkte +
                 '}';
     }
 }
